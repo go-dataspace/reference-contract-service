@@ -51,7 +51,6 @@ type Server struct {
 
 	dir         fs.FS
 	filesByID   map[uuid.UUID]*fileInfo
-	registry    *publishRegistry
 	publishRoot *url.URL
 	credentials credentials.TransportCredentials
 }
