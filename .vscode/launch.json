@@ -14,9 +14,8 @@
                 "server",
                 "--debug",
                 "--grpc-insecure",
-                // "--grpc-port=50051",
-                // "--publish-port=2021",
-                "--file-root=/home/excds/gitrepos/go-dataspace/reference-contract-service/uploads"
+                "--grpc-control-insecure",
+                "--file-root=${workspaceFolder}/uploads"
             ]
         }
     ]
